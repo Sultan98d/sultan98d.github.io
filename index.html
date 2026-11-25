@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sultan Alharbi | Portfolio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+nav {
+    background: #0f172a;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+header {
+    background: linear-gradient(135deg, #0f172a, #164e63);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 19px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+    padding: 30px 24px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #0f172a;
+    font-size: 28px;
+    border-bottom: 3px solid #0891b2;
+    padding-bottom: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #0f172a;
+    margin-top: 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tag {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 5px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.button {
+    display: inline-block;
+    background: #0f172a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: #0891b2;
+}
+
+footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#analysis">Data Analysis</a>
+    <a href="#science">Data Science</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <h1>Sultan Alharbi</h1>
+    <p>Statistics | Data Analytics | Data Science</p>
+    <a class="button" href="#analysis">Explore My Projects</a>
+</header>
+
+<main class="container">
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a graduate student in Statistics at
+        The George Washington University, with a
+        background in Mathematics and an interest
+        in data analytics, statistical modeling,
+        and machine learning.
+    </p>
+    <p>
+        My portfolio showcases projects focused on
+        transforming data into meaningful insights
+        and developing data-driven solutions.
+    </p>
+</section>
+
+<section id="analysis">
+    <h2>Data &amp; Statistical Analysis</h2>
+
+    <p>
+        Projects focused on exploratory data analysis,
+        statistical methods, business intelligence,
+        and data visualization.
+    </p>
+
+    <div class="projects">
+
+        <!-- Add Data Analysis projects here -->
+
+        <article class="card">
+            <h3>London Bike Sharing – Demand Analysis</h3>
+
+            <p><strong>Overview:</strong>
+                An analysis of bike rental demand in London.
+            </p>
+
+            <p><strong>Analysis:</strong>
+                Hourly rental patterns, weather conditions,
+                seasonal trends, and weekday versus weekend demand.
+            </p>
+
+            <p><strong>Key Findings:</strong>
+                Demand peaks during commuting hours,
+                increases during summer, and tends
+                to be lower during rainy weather.
+            </p>
+
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">EDA</span>
+
+            <p>Full project coming soon.</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="science">
+    <h2>Data Science &amp; Machine Learning</h2>
+
+    <p>
+        Projects focused on predictive modeling,
+        machine learning algorithms, model evaluation,
+        and data-driven decision-making.
+    </p>
+
+    <div class="projects">
+
+        <!-- Add Data Science projects here -->
+
+        <article class="card">
+            <h3>Upcoming Projects</h3>
+            <p>
+                Machine learning and predictive modeling
+                projects will be added here.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <span class="tag">Python</span>
+    <span class="tag">R</span>
+    <span class="tag">SQL</span>
+    <span class="tag">SAS</span>
+    <span class="tag">Power BI</span>
+    <span class="tag">Tableau</span>
+    <span class="tag">Excel</span>
+    <span class="tag">Statistics</span>
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Data Visualization</span>
+    <span class="tag">Streamlit</span>
+    <span class="tag">GitHub</span>
+</section>
+
+<section id="contact">
+    <h2>Contact &amp; Links</h2>
+
+    <a class="button"
+       href="https://github.com/Sultan98d"
+       target="_blank"
+       rel="noopener noreferrer">
+        GitHub Profile
+    </a>
+</section>
+
+</main>
+
+<footer>
+    © 2026 Sultan Alharbi | Data Portfolio
+</footer>
+
+</body>
+</html>
